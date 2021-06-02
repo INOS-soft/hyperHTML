@@ -1,0 +1,2 @@
+(this["webpackJsonpmaker-code-editor"]=this["webpackJsonpmaker-code-editor"]||[]).push([[15],{1379:function(e,t,i){"use strict";i.r(t);var n=i(897);i.d(t,"officeScriptIntellisenseBatch",(function(){return n.intellisenseBatch}))},897:function(e,t,i){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.intellisenseBatch=void 0;var n=i(1185);t.intellisenseBatch=n.batchIntellisense}}]);
+//# sourceMappingURL=office.script.synchronous.intellisense.batch.74a004bb.chunk.js.map
