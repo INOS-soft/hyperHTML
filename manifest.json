@@ -1,0 +1,27 @@
+{
+   "background": {
+      "scripts": [ "scripts/vendor/moment/moment.js", "scripts/vendor/jquery/jquery.js", "scripts/vendor/sitename/alttlds.js", "scripts/vendor/sitename/tldpatch.js", "scripts/vendor/sitename/sitename.js", "scripts/services.js", "scripts/background.js" ]
+   },
+   "browser_action": {
+      "default_title": "View and manage requests"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "stylesheets/content.css" ],
+      "js": [ "scripts/vendor/jquery/jquery.js", "scripts/vendor/sitename/alttlds.js", "scripts/vendor/sitename/tldpatch.js", "scripts/vendor/sitename/sitename.js", "scripts/content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Make the web faster, more private, and more secure.",
+   "icons": {
+      "128": "images/128.png",
+      "48": "images/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAykvZXSidu9+DeyOfGSA0W+hPdi7MWai3qOgvHpkrvOKU5Uw7F+HmdWhs62o2MQx74ihljgHTClxAcegSfyBfvbyjsNRubXZaGjtATNRkdVhjjMNz1Jjr7rL3pIJkyzrgyIxUc1yDwP2Earadb2ioJW3DoI7MfuYQTEHnBpxy9h76wNZaSvA/S5AfFR1BjroKZ4OkbXHkU5SKsoQARRwl32pWnzI5VZzjMduks7IiYcJI+cwQb7gSs0u3u2uA78tH0ldJmkoQL88oiPr4fAr8+hIvUNJxxkTUbBKUT1BqNNtCsGJ3muyoLnq0KyisLpTvcFBniI9QuyOhow04+29SlQIDAQAB",
+   "manifest_version": 2,
+   "name": "Disconnect",
+   "permissions": [ "tabs", "webNavigation", "webRequest", "webRequestBlocking", "http://*/*", "https://*/*" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "20.3.1.1",
+   "web_accessible_resources": [  ]
+}
